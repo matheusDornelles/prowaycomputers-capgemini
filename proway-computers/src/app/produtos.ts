@@ -4,6 +4,11 @@ export interface IProduto {
     preco: number;
     descricaoPreco: string;
     imagem: string;
+    
+}
+
+export interface IProdutoCarrinho extends IProduto {
+    quantidade: number;
 }
 
 export const produtos = [
