@@ -29,8 +29,6 @@ export class ContatoComponent implements OnInit {
       Validators.minLength(20),
       Validators.required
     ]]
-
-
    
    })
 
